@@ -50,6 +50,7 @@ poetry.lock
 # Datasets and Annotations
 # ==============================
 *.json
+*.csv
 *.xml
 *.yml
 *.tsv
