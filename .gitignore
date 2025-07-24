@@ -1,0 +1,87 @@
+# ==============================
+# Python-related
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+.env
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# ==============================
+# Video & Image files
+# ==============================
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.webm
+*.mpff4
+
+# Images
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+*.webp
+
+# ==============================
+# Datasets and Annotations
+# ==============================
+*.json
+*.xml
+*.yml
+*.tsv
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+
+# ==============================
+# Logs and outputs
+# ==============================
+*.log
+logs/
+runs/
+outputs/
+results/
+checkpoints/
+models/
+
+# ==============================
+# OS / Editor / IDE
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==============================
+# Colab / IPython / Notebook files
+# ==============================
+*.nbconvert.ipynb
+*.nbmetadata
