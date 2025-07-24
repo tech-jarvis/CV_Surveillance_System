@@ -1,5 +1,5 @@
 # ==============================
-# Python-related
+# 🐍 Python Bytecode & Artifacts
 # ==============================
 __pycache__/
 *.py[cod]
@@ -11,26 +11,59 @@ __pycache__/
 dist/
 build/
 
-# Jupyter notebooks
+# ==============================
+# 📘 Jupyter Notebooks
+# ==============================
 .ipynb_checkpoints/
+*.nbconvert.ipynb
+*.nbmetadata
 
-# Virtual environment
+# ==============================
+# 🧪 Virtual Environments
+# ==============================
+.venv/
 venv/
 env/
-.venv/
+ENV/
 .env/
 .env
 
-# Pipenv
+# ==============================
+# 📦 Dependency Managers
+# ==============================
 Pipfile.lock
-
-# Poetry
 poetry.lock
 
 # ==============================
-# Video & Image files
+# 📂 Dataset & Annotations
 # ==============================
-# Videos
+*.csv
+*.tsv
+*.json
+*.xml
+*.yml
+*.yaml
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# ==============================
+# 🖼️ Images
+# ==============================
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.webp
+
+# ==============================
+# 🎞️ Videos
+# ==============================
 *.mp4
 *.avi
 *.mov
@@ -39,31 +72,8 @@ poetry.lock
 *.webm
 *.mpff4
 
-# Images
-*.jpeg
-*.bmp
-*.gif
-*.tiff
-*.webp
-
 # ==============================
-# Datasets and Annotations
-# ==============================
-*.json
-*.csv
-*.xml
-*.yml
-*.tsv
-*.h5
-*.hdf5
-*.npy
-*.npz
-*.pkl
-*.pickle
-
-
-# ==============================
-# Logs and outputs
+# 📁 Logs & Output Files
 # ==============================
 *.log
 logs/
@@ -74,15 +84,9 @@ checkpoints/
 models/
 
 # ==============================
-# OS / Editor / IDE
+# 🧠 IDEs / Editors
 # ==============================
-.DS_Store
-Thumbs.db
 .vscode/
 .idea/
-
-# ==============================
-# Colab / IPython / Notebook files
-# ==============================
-*.nbconvert.ipynb
-*.nbmetadata
+.DS_Store
+Thumbs.db
