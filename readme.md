@@ -39,7 +39,6 @@ Cashiers perform specific tasks such as handling money, scanning items, and inte
 # Execution Pipeline
 
 Connect to NAS for accessing videos
-* `mount -t nfs -o nfsvers=3 172.16.0.250:/volume1/IDS_KASSA /mnt`
 
 * Step 1: Generate Detection and Tracking Ids, also identify cashier
 `train_main_store.py`
